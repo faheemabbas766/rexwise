@@ -1,0 +1,235 @@
+/*
+----------------------------------------------------------------
+	remove the white gap for 4 sides in elementor
+----]------------------------------------------------------------
+*/
+.elementor-section .elementor-column-gap-default > .elementor-column > .elementor-element-populated{
+	padding:0px;
+}
+
+.admin-bar .main-header.fixed-header .header-lower{
+	top:32px !important;	
+}
+
+/********* Pagination Style *************/
+.pagination{
+	position: relative;
+}
+.pagination li,
+.pagination li{
+	position: relative;
+    display: inline-block;
+}
+.pagination li a,
+.pagination li span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    height: 56px;
+    width: 56px;
+	border-radius:50px;
+    line-height: 54px;
+    border: 1px solid rgba(var(--white-color-rgb), 0.10) !important;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+
+.pagination li:hover a, 
+.pagination li.active span,
+.pagination li a:hover span,
+.pagination li.active a,
+.pagination li span.current {
+    color: #ffffff;
+    background: #761fe3;
+    border-color: #761fe3;
+}
+/***************** Blog Sidebar Style*******************/
+.widget{
+	position: relative;
+}
+.widget ul,
+.widget ol{
+	position:relative;	
+	margin:0px;
+	padding-top: 0px;
+}
+.widget ul li,
+.widget ol li{
+	position: relative;
+	display:block;
+	font-size: 16px;
+    color: #ffffff;
+	margin-bottom: 10px;	
+}
+.widget ul li:last-child,
+.widget ol li:last-child{
+	margin-bottom:0px;
+}
+.widget ul li ul li,
+.widget ol li ol li{
+	margin-bottom:0px;
+	margin-left:15px;
+	margin-top:10px;
+}
+.widget ul li a,
+.widget ol li a{
+	position: relative;
+	display:inline-block;
+    font-size: 16px;
+	font-weight:500;
+	width:100%;
+	line-height: 24px;
+	color: #ffffff;
+	border-radius: 8px;
+    padding: 18px 25px;
+    background-color: #333333;
+}
+.widget ul li a:hover,
+.widget ol li a:hover{
+	color: #ffffff;
+    background-color: #761fe3;
+}
+
+.widget .tagcloud{
+	position: relative;
+    display: inline-block;    
+}
+.widget .tagcloud a{	
+	position: relative;
+	padding: 6px 18px;
+    font-size: 14px !important;
+    font-weight: 400;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #a3a3a3;
+    text-transform: capitalize;
+    border: 1px solid rgba(var(--white-color-rgb), 0.10);
+	vertical-align: top;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    text-align: center;	
+}
+.widget .tagcloud a:hover{
+	color: #ffffff;
+    border-color: #761fe3;
+    background-color: #761fe3;
+}
+/***************** Service Sidebar Style*******************/
+
+/***************** Footer Widget Style*******************/
+.footer-widget{
+	position:relative;
+}
+.footer-widget ul,
+.footer-widget ol{
+	position:relative;
+	margin:0px;
+}
+.footer-widget ul li,
+.footer-widget ol li{
+    display: inline-block;
+    position: relative;   
+	font-size: 16px;
+    color: #bdbdbd;
+    font-weight: 500;	
+	line-height: 24px;
+    margin-bottom: 15px;
+	min-width: 32.5%;    
+}
+.footer-widget ul li:last-child,
+.footer-widget ol li:last-child{
+	margin-bottom:0px;
+}
+.footer-widget ul li ul li,
+.footer-widget ol li ol li{
+	margin-bottom:0px;
+	margin-top:15px;
+	margin-left:15px;
+}
+.footer-widget ul li a,
+.footer-widget ol li a{
+    position: relative;
+	display:block;
+	font-weight: 500;
+    font-size: 16px;
+    color: #bdbdbd;	
+	transition: all 100ms linear;
+    transition-delay: 0.1s;
+}
+.footer-widget ul li a:hover,
+.footer-widget ol li a:hover{
+	color: #761fe3;
+}
+
+/****** comment Style ***************/
+.braine-comment-item .braine-comment-item{
+	margin-left:80px;
+}
+.sidebar-page-container .group-title h3 small a{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #bdbdbd;
+}
+.sidebar-page-container .braine-comment-item .group-title small a:hover,
+.sidebar-page-container .logged-in-as a{
+	color: #761fe3;
+}
+.sidebar-page-container p.logged-in-as{
+	margin-bottom: 10px;
+}
+.comments-area.comment-form_outer .braine-comment-item .comment-form_outer,
+.comments-area.comment-form_outer .blog-author_box.comments .blog-author-box_inner{
+	margin-bottom: 60px;
+}
+.comments-area.comment-form_outer .comments > .braine-comment-item:last-child .blog-author-box_inner {
+   border-bottom: none;
+   margin-bottom:0px;
+}
+
+.comment-box .braine-comment-item .comments-form-area{
+	margin:0px;	
+	padding:25px 30px 30px;
+	border-bottom:1px solid rgba(var(--white-color-rgb), 0.10);
+}
+.comments-area.comment-form_outer .blog-author-box_inner .reply-link{
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+.comments-area.comment-form_outer .blog-author_box{
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding: 0px;
+}
+.comments-area.comment-form_outer .comments .blog-author_box{
+	padding: 0px
+}
+.comments-area.comment-form_outer .braine-comment-item .comment-form_outer.reply-form-box{
+	margin-top: 0px;
+    padding: 0px 0px;
+}
+/************ custom style *********************/
+.author-social_links li a {
+    text-align: center;
+}
+.main-footer.style-two .footer-newsletter{
+	margin-right:0px;
+}
+.main-footer .footer-newsletter {
+    margin-right: 50px;
+}
+.te-icon-box .styled-pagination .pagination,
+.braine-testi-section .styled-pagination .pagination{
+	display:block;
+	text-align:center;
+}
